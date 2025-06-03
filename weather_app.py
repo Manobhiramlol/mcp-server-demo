@@ -13,7 +13,7 @@ load_dotenv()
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Weather API configuration
-WEATHER_API_KEY = os.getenv('c3d320a9704720440fe50482e54ba223')
+WEATHER_API_KEY = os.getenv('WEATHER_API_KEY')
 BASE_URL = "http://api.weatherstack.com/"
 
 def get_weather_data(city):
